@@ -13,6 +13,6 @@ public class Car {
     }
 
     public double averageFuel(){
-        return distance/fuel;
+        return (fuel/distance)*100;
     }
 }
